@@ -11,7 +11,7 @@ header{
     border-bottom: 2px solid rgba(128, 128, 128, 0.26);
 }
 nav{
-    width: 90%;
+    width: 95%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -23,16 +23,20 @@ nav{
     font-size: 1.9em;
 }
 nav input{
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
-    margin-right: 40px;
+    border: 2px solid rgba(128, 128, 128, 0.418);
 }
-.items-list ul{
+.items-list ol{
     display: flex;
     gap: 2em;
+    position: relative;
 }
 .items-list li a{
     color: black;
+}
+.items-list li a:hover{
+    color: #FF6154
 }
 nav button{
     padding: 10px 20px;
@@ -43,6 +47,58 @@ nav button{
 nav button a{
     color: #fff;
 }
+.drop{
+    display: none;
+    position: absolute;
+    width: 400px;
+    border: none;
+    margin-left: -10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 13px 31px -5px rgba(0, 0, 0, 0.19);
+}
+.drop p a:hover{
+    color: black;
+}
+.dropdown:hover .drop{
+    display: block;
+}
+.Upcoming-launch:hover{
+    background-color: #b7c5ab88
+}
+.launch-archive:hover{
+    background-color: #d4c2b688;
+}
+.launch-guide:hover{
+    background-color: #b7bdbc83;
+}
+.newsletter:hover{
+    background-color: #6974b477;
+}
+.stories:hover{
+    background-color: #d688987c;
+}
+.changelog:hover{
+    background-color: #5b784a81;
+}
+.forums:hover{
+    background-color: #bf9ba77c;
+}
+.streak:hover{
+    background-color: #cb857273;
+}
+.events:hover{
+    background-color:#88a67d7a ;
+}
+
+
+
+
+
+
+
+
+
 
 @media(max-width:1223px){
     .head-input{
