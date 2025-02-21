@@ -105,10 +105,17 @@ nav button a{
 .productdrop-sub:hover .Productivity-drop{
     display: block;
 }
-.wale{
+.work{
     display: flex;
     gap: 1em;
     line-height: 26px;
+}
+.engr-drop{
+    position: absolute;
+    left: 100%;
+    top: -5px;
+    width: 450px;
+    /* display: none; */
 }
 .product-landscape li a:hover{
     color: black;
