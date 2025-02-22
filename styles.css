@@ -60,10 +60,16 @@ nav button a{
 }
 .drop-product{
     position: absolute;
-    width: 750px;
+    width: 850px;
+    margin-left: -130px;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 13px 31px -5px rgba(0, 0, 0, 0.19);
+    display: none;
+    z-index: 2;
+}
+.dropdown:hover .drop-product{
+    display: block;
 }
 .product-landscape{
     display: flex;
@@ -76,6 +82,7 @@ nav button a{
     border-radius: 20px;
     margin-bottom: 10px;
     background-color: #acb3b957;
+    padding: 7px;
 }
 .drop-product p a:hover{
     color: black;
@@ -89,6 +96,7 @@ nav button a{
 .productdrop-sub{
     margin-top: 20px;
     width: 250px;
+    border-right: 1px solid rgba(128, 128, 128, 0.445);
     position: relative;}
 
 .Productivity-drop{
@@ -113,7 +121,7 @@ nav button a{
     position: absolute;
     left: 240px;
     top: -40px;
-    width: 450px;
+    width: 600px;
     display: none;
 }
 .drop-sub:hover .engr-drop{
@@ -137,6 +145,106 @@ nav button a{
     display: none;
 }
 .drop-sub:hover .finance-drop{
+    display: block;
+}
+.social-drop{
+    position: absolute;
+    left: 240px;
+    top: -154px;
+    width: 450px;
+    display: none;
+}
+.drop-sub:hover .social-drop{
+    display: block;
+}
+.marketing-drop{
+    position: absolute;
+    left: 240px;
+    top: -190px;
+    width: 600px;
+    display: none;
+}
+.drop-sub:hover .marketing-drop{
+    display: block;
+}
+.ai-drop{
+    position: absolute;
+    left: 240px;
+    top: -230px;
+    width: 600px;
+    display: none;
+}
+.drop-sub:hover .ai-drop{
+    display: block;
+}
+.health-drop{
+    position: absolute;
+    left: 240px;
+    top: -270px;
+    width: 600px;
+    display: none;
+}
+.drop-sub:hover .health-drop{
+    display: block;
+}
+.travel-drop{
+    position: absolute;
+    left: 240px;
+    bottom: 170px;
+    width: 600px;
+    display: none;
+}
+.drop-sub:hover .travel-drop{
+    display: block;
+}
+.platforms-drop{
+    position: absolute;
+    left: 240px;
+    bottom: 210px;
+    width: 600px;
+    display: none;
+}
+.drop-sub:hover .platforms-drop{
+    display: block;
+}
+.addons-drop{
+    position: absolute;
+    left: 240px;
+    bottom: 270px;
+    width: 600px;
+    display: none;
+}
+.drop-sub:hover .addons-drop{
+    display: block;
+}
+.web3-drop{
+    position: absolute;
+    left: 240px;
+    bottom: 310px;
+    width: 600px;
+    display: none;
+}
+.drop-sub:hover .web3-drop{
+    display: block;
+}
+.physical-drop{
+    position: absolute;
+    left: 240px;
+    bottom: 345px;
+    width: 600px;
+    display: none;
+}
+.drop-sub:hover .physical-drop{
+    display: block;
+}
+.ecommerce-drop{
+    position: absolute;
+    left: 240px;
+    bottom: 430px;
+    width: 600px;
+    display: none;
+}
+.drop-sub:hover .ecommerce-drop{
     display: block;
 }
 .product-landscape li a:hover{
