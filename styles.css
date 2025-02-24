@@ -291,7 +291,6 @@ nav button a{
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 2em;
-    
 }
 .hero-box{
     display: flex;
@@ -345,14 +344,11 @@ nav button a{
 .see-prod:hover{
     background-color: #E8EBED;
 }
+.right-box:hover{
+    background-color: rgba(128, 128, 128, 0.082);
+}
 
-
-
-
-
-
-
-
+/* media query */
 @media(max-width:1313px){
      .right-hero{
         display: none;
@@ -388,6 +384,9 @@ nav button a{
     .mid-img{
         width: 700px;
     }
+    .golden-img{
+        width: 700px;
+    }
 }
 @media(max-width:739px){
     .hero-box{
@@ -416,6 +415,9 @@ nav button a{
      .mid-button{
          padding: 10px 100px;
      }
+     .golden-img{
+        width: 500px;
+    }
 }
 @media(max-width:522px){
      .hero-box{
@@ -428,6 +430,9 @@ nav button a{
         display: flex;
         justify-content: center;
      }
+     .golden-img{
+        width: 400px;
+    }
 }
 @media(max-width:478px){
     .mid-img{
@@ -454,6 +459,9 @@ nav button a{
         display: flex;
         justify-content: center;
      }
+     .golden-img{
+        width: 300px;
+    }
 }
 @media(max-width:364px){
     @media(max-width:478px){
