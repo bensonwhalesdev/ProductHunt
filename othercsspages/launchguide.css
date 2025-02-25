@@ -296,15 +296,7 @@ nav button a{
     display: none;
 }
 .left-side{
-    border: 2px solid black;
     width: 800px;
-    /* height: 400px; */
-    border-right: 2px solid red;
-}
-.right-side{
-    border: 2px solid black;
-    width: 400px;
-    height: 400px;
 }
 .sub-box1{
     border: 1px solid rgba(128, 128, 128, 0.452);
@@ -333,7 +325,7 @@ nav button a{
     font-size: 0.9em;
 }
 .herolist-box:hover{
-     background-color: rgba(128, 128, 128, 0.315);
+     background-color: rgba(128, 128, 128, 0.151);
 }
 .box-text a:hover{
     color: #FF6154;
@@ -341,14 +333,21 @@ nav button a{
 .sub-box1:hover{
     border: 2px solid #FF6154;
 }
-
 .sub-box2:hover{
     border: 2px solid #FF6154;
 }
-
-
-
-
+.right-side{
+    border-left: 2px solid rgba(128, 128, 128, 0.281);
+    width: 300px;
+}
+.right-list{
+    padding-left: 20px;
+    line-height: 30px;
+}
+.right-list li:hover{
+    background-color: rgba(128, 128, 128, 0.151);
+}
+/* media-query */
 @media(max-width:1321px){
     .right-side{
         display: none;
