@@ -59,6 +59,7 @@ nav button a{
     border-radius: 5px;
     box-shadow: 0px 13px 31px -5px rgba(0, 0, 0, 0.19);
     background-color: #fff;
+    z-index: 2;
 }
 .drop-product{
     position: absolute;
@@ -255,35 +256,102 @@ nav button a{
     font-weight: 600;
 }
 .Upcoming-launch:hover{
-    background-color: #b7c5ab88
+    background-color: #D5F3DD;
 }
 .launch-archive:hover{
-    background-color: #d4c2b688;
+    background-color: #FFE6E4;
 }
 .launch-guide:hover{
-    background-color: #b7bdbc83;
+    background-color: #E5EFFF;
 }
 .newsletter:hover{
-    background-color: #6974b477;
+    background-color: #EAE9FF;
 }
 .stories:hover{
-    background-color: #d688987c;
+    background-color: #FFE9F4;
 }
 .changelog:hover{
-    background-color: #5b784a81;
+    background-color: #CFFCDB;
 }
 .forums:hover{
-    background-color: #bf9ba77c;
+    background-color: #FFE9F8;
 }
 .streak:hover{
-    background-color: #cb857273;
+    background-color: #FFE4E4;
 }
 .events:hover{
-    background-color:#88a67d7a ;
+    background-color:#CFF2D8;
 }
 .sidedrop-list p:hover{
    background-color: #acb3b957;
 }
+.hero-sect{
+    position: relative;
+}
+.hero-dropdown{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    border: 2px solid #FF6154;
+    margin-left: 10px;
+}
+.hero-dropdown1{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    border: 2px solid grey;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.hero-sidedrop{
+    position: absolute;
+    width: 315px;
+    border-radius: 5px;
+    line-height: 30px;
+    background-color: #fff;
+    z-index: 2;
+    display: none;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.hero-dropdown:hover .hero-sidedrop{
+    display: block;
+}
+.hero-sidedrop a:hover{
+    color: #FF6154;
+}
+.wrap{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 30px;
+    gap: 1em;
+}
+.left-side{
+    width: 800px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.right-side{
+    border-left: 2px solid rgba(128, 128, 128, 0.281);
+    width: 310px;
+    padding: 10px;
+    line-height: 30px;
+}
+.right-side li{
+    font-size: 0.9em;
+}
+.right-side2{
+    display: none;
+}
+.right-head{
+    display: flex;
+    gap: 1em;
+    font-size: 0.8em;
+}
+.right-head a{
+    color: rgba(8, 6, 6, 0.808);
+}
 
 
 
@@ -292,6 +360,24 @@ nav button a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1240px){
+    .right-side{
+        display: none;
+    }
+    /* .right-side2{
+        display: block;
+    } */
+}
 @media(max-width:1223px){
     .head-input{
         display: none;
