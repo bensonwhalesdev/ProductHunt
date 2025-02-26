@@ -294,6 +294,7 @@ nav button a{
     height: 2px;
     border: 2px solid #FF6154;
     margin-left: 10px;
+    position: fixed;
 }
 .hero-dropdown1{
     position: absolute;
@@ -302,6 +303,7 @@ nav button a{
     border: 2px solid grey;
     margin-left: 10px;
     margin-top: 10px;
+    position: fixed;
 }
 .hero-sidedrop{
     position: absolute;
@@ -333,7 +335,6 @@ nav button a{
     padding: 10px;
 }
 .right-side{
-    border-left: 2px solid rgba(128, 128, 128, 0.281);
     width: 310px;
     padding: 10px;
     line-height: 30px;
@@ -344,15 +345,52 @@ nav button a{
 .right-side2{
     display: none;
 }
-.right-head{
+.right-itemlist{
     display: flex;
     gap: 1em;
     font-size: 0.8em;
+    flex-wrap: wrap;
 }
-.right-head a{
+.right-itemlist a{
     color: rgba(8, 6, 6, 0.808);
 }
-
+.right-headnote{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.hero-textbox{
+    display: flex;
+    gap: 0.8em;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #F9FAFB;
+}
+.richard-pic{
+    border-radius: 50%;
+    position: relative;
+}
+.richard-dropdown{
+    position: absolute;
+    width: 350px;
+    left: -70px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+.richard-button{
+    padding: 7px 14px;
+    border: 2px solid rgba(128, 128, 128, 0.37);
+    background-color: #fff;
+    border-radius: 5px;
+}
+.richard-pic:hover .richard-dropdown{
+    display: block;
+}
 
 
 
@@ -382,6 +420,9 @@ nav button a{
     .head-input{
         display: none;
     }
+    .wrap{
+       grid-template-columns: auto;
+    }
 }
 @media(max-width:950px){
     .items-list{
@@ -389,6 +430,11 @@ nav button a{
     }
     .fa-bars{
         display: block !important;
+    }
+}
+@media(max-width:460px){
+    .hero-textbox1{
+        font-size: 0.8em;
     }
 }
 @media(max-width:416px){
