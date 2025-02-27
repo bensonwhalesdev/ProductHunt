@@ -409,13 +409,7 @@ nav button a{
 .mid-img{
     border-radius: 10px;
 }
-
-
-
-
-
-
-
+/* media query */
 @media(max-width:1240px){
     .right-side{
         display: none;
