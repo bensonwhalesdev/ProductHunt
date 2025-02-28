@@ -263,31 +263,31 @@ nav button a{
     font-weight: 600;
 }
 .Upcoming-launch:hover{
-    background-color: #b7c5ab88
+    background-color: #D5F3DD;
 }
 .launch-archive:hover{
-    background-color: #d4c2b688;
+    background-color: #FFE6E4;
 }
 .launch-guide:hover{
-    background-color: #b7bdbc83;
+    background-color: #E5EFFF;
 }
 .newsletter:hover{
-    background-color: #6974b477;
+    background-color: #EAE9FF;
 }
 .stories:hover{
-    background-color: #d688987c;
+    background-color: #FFE9F4;
 }
 .changelog:hover{
-    background-color: #5b784a81;
+    background-color: #CFFCDB;
 }
 .forums:hover{
-    background-color: #bf9ba77c;
+    background-color: #FFE9F8;
 }
 .streak:hover{
-    background-color: #cb857273;
+    background-color: #FFE4E4;
 }
 .events:hover{
-    background-color:#88a67d7a ;
+    background-color:#CFF2D8;
 }
 .sidedrop-list p:hover{
    background-color: #acb3b957;
