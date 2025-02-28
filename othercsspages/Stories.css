@@ -29,6 +29,13 @@ nav input{
     text-align: center;
     border: 2px solid rgba(128, 128, 128, 0.418);
 }
+.fa-magnifying-glass{
+    position: absolute;
+    top: 38px;
+    left: 125px;
+    font-size: 0.8em;
+    color: rgba(128, 128, 128, 0.685);;
+}
 .items-list ol{
     display: flex;
     gap: 2em;
@@ -355,6 +362,9 @@ nav button a{
 @media(max-width:1223px){
     .head-input{
         display: none;
+    }
+    .fa-magnifying-glass{
+        display: none !important;
     }
     .card_wrap{
         grid-template-columns: repeat(2, 1fr);
